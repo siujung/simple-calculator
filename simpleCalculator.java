@@ -2,7 +2,7 @@ package hw3;
 import java.awt.*;
 import java.awt.event.*;
 
-public class s20140310hw3 extends Frame implements ActionListener{
+public class simpleCalculator extends Frame implements ActionListener{
 	
 	private Frame f;
 	private TextArea tf;
@@ -13,7 +13,7 @@ public class s20140310hw3 extends Frame implements ActionListener{
 	private double num[] = new double [5];
 	private boolean resultFlag=false, minusFlag=false;
 	
-		public s20140310hw3() {
+		public simpleCalculator() {
 			f=new Frame("Calculator");
 			f.setBackground(Color.gray);
 			//f.setSize(300, 200);
@@ -212,7 +212,7 @@ public class s20140310hw3 extends Frame implements ActionListener{
 	}
 
 	public static void main(String args[]) {
-		s20140310hw3 cal = new s20140310hw3();
+		simpleCalculator cal = new simpleCalculator();
 	}
 
 
